@@ -4,44 +4,91 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="hero.css">
   </head>
   <body>
     <header>
-      <div class="logo topBtn" >
-        <img
-          src="https://i.ibb.co/QnJ7Bws/default-meta-image-v2-2-1-removebg-preview.png"
-          alt="udemy"
-          title="udemy logo"
-          width="100px"
-        />
-      </div>
-      <div class="main-menu">
-        <ul class="header_ul topBtn">
-         <a href="#" style="color: black; text-decoration: none;"> <li class="header_cat_list">
+      <div class="main-header">
+  
+        <div class="logo">
+          <a href="#" class="logo-link">
+            <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt=""
+              class="logo-img"
+              height="34"
+              width="91"
+            >
+          </a>
+        </div>
+        
+        <div class="categories">
+          <button class="categories-button">
             Categories
-        </a>
+          </button>
+        </div>
+        <div class="sherch">
+          <input type="search" placeholder="  🔍   Search for anything">
+        </div>
+        <div class="ub">
+          <button class="categories-button">
+            Udemy Businss
+          </button>
+        </div>
+        <div class="categories T">
+          <button class="categories-button">
+            Teach on Udemy
+          </button>
+        </div>
+        <div class="cart">
+          <a href="#" class="cart-a">
+            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png" alt="">
+          </a>
+        </div>
+        <div class="header-button">
+          <a href="#">
+          <span>Log in</span>
+          </a>
+        </div>
+        <div class="header-button">
+          
+          <a href="#" style="background-color: #1c1d1f;     color: #fff;">
+            <span>Sign up</span>
+            </a>
+        </div>
+        <div class="ln-button ">
+          <a href="#" class="ln">
+            <img height="20" width="25" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_language_48px-512.png" alt="">
+            </a>
+        </div>
       </div>
-      <div class="search-box">
-        <form class="search-container">
-          <input
-            type="text"
-            id="search-bar"
-            placeholder="Search for anything"
-          />
-        </form>
+      <div class="smlo-header">
+        <div class="menu-icon">
+          <a class="menu-a" href="#">
+  
+          <img width="20" height="15" src="https://pic.onlinewebfonts.com/svg/img_523096.png" alt="">
+          </a>
+        </div>
+        <div class="logo-min">
+          <a href="#" class="main-logo-link">
+            <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt=""
+              class="logo-img"
+              height="30"
+              width="88"
+            >
+          </a>
+        </div>
+        <div class="search-logo">
+          <a href="#">
+            <img height="22" width="19" src="https://www.pngfind.com/pngs/m/617-6173786_small-icon-png-search-icon-svg-transparent-png.png" alt="">
+          </a>
+        </div>
+        <div class="cart">
+          <a href="#" class="cart-a">
+            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png" alt="">
+          </a>
+        </div>
       </div>
-      <div class="Bcm-instructor-btn topBtn">Udemy Business</div>
-      <div class="Bcm-instructor-btn topBtn">Teach on Udemy</div>
-      <div class="shopping-cart-btn topBtn">
-        <img
-          src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png"
-        />
-      </div>
-      <div class="header_signup_btn topBtn" >Sign up</div>
-      <div class="header_login_btn topBtn">Log in</div>
-      <div class="notification-btn"></div>
-  </header>
+    </header>
   <section class="hero">
 
     <div class="hero-content">
@@ -55,8 +102,41 @@
     </div>
 
   </section>
+  <section>
+    <h1>A broad selection of courses</h1>
+    <p>
+      Choose from 185,000 online video courseswith new additions published
+      every month
+    </p>
 
-    <main></main>
-    <footer></footer>
+    <h2 class="marginrl">Expand your career opportunities with Python</h2>
+    <p class="marginrl">
+      Take one of Udemy’s range of Python courses and learn how to code
+      using this incredibly useful language. Its simple syntax and
+      readabilitys Python perfect for Flask, Django, data science, and
+      machine learning. You’ll learn how to build everything from games to
+      sites to apps. Choose from a range of courses that will appeal to
+    </p>
+    
+    <div class="main-c">
+        <a
+          class="course"
+          href="https://www.udemy.com/course/pythonforbeginners/"
+          ><img
+            src="https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg"
+            alt="pyhon"
+          />
+          <h3>Learn Python: Complete Python Programming Course</h3>
+          <h4 class="grey">Avinash Jain, The Codex</h4>
+          <div>
+            <span class="checked">4.4</span>
+            <span class="fa fa-star-half-full checked"></span>
+            <!-- <span class="fa fa-star-o checked "></span> -->
+            <span class="grey">(2,876)</span>
+          </div>
+          <h5>Eg99.99</h5>
+        </a>
+    </div>
+  </section>
   </body>
 </html>

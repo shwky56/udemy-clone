@@ -1,0 +1,93 @@
+section {
+  margin: 0px 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-c {
+  /* margin: 0px ; */
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.main-c img {
+  height: 8rem;
+  width: 14.5rem;
+}
+
+.main-c h3 {
+    max-width: 14.5rem;
+    margin-top: .3rem;
+    margin-bottom: 1.rem;
+    color: black;
+    /* font-style: normal; */
+    text-decoration: none;
+  
+    display: block; /* or inline-block */
+    /* text-overflow: ellipsis; */
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 2.1em;
+    line-height: 1em;
+  }
+ 
+
+
+
+.course {
+  display: flex;
+  flex-direction: column;
+}
+.searchBar {
+  width: 40%;
+
+  border-radius: 15rem;
+  border: black 1px solid;
+}
+
+
+.headpar {
+  margin-top: -10rem;
+  height: 30%;
+  background-color: white;
+  width: 30%;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+  padding-bottom: 0.8rem;
+  padding-left: 0.7rem;
+}
+.logo {
+  margin: 1rem;
+  margin-right: 0;
+}
+.grey {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.alarmphoto {
+  width: 40rem;
+}
+.noborder {
+  border: none;
+}
+
+.explore {
+  /* margin-right: 20rem; */
+  height: 3rem;
+  max-width: 10rem;
+}
+.menu {
+    display: none;
+  }
+
+
+   
+  .smallSpace{
+    flex-grow: 2;
+    /* background-color:red; */
+  }
