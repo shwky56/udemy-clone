@@ -4,6 +4,8 @@
   flex-direction: row;
   justify-content: center;
   margin-bottom: 9rem;
+  margin-top: 6px;
+
 }
 .all {
   display: inline-block;
