@@ -33,7 +33,7 @@ async function cearch(val){
 
 
 async function getCourses() {
-  let url = "http://localhost:3000/courses";
+  let url = 'https://shwky56.github.io/facapi/courses.geojson';
   try {
     let res = await fetch(url);
     return await res.json();
