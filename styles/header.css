@@ -55,15 +55,20 @@ input {
   border-width: 1px;
   border-radius: 22px;
   background-color: #00000005;
+  padding-left: 10px;
+  font-size: 18px;
 }
 input::placeholder {
 
   font-weight: 400px;
-  font-size: 13.7px;
+  font-size: 17
+  px;
   line-height: 1.4px;
   color: gray;
-
+  margin-left: 5px;
   display: flex;
+  padding-left: 8px;
+  padding-right: 10px;
 }
 input::hover {
   border-width: 1px;
