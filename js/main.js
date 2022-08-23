@@ -19,18 +19,6 @@ async function search(val){
     });
     renderCourses(newcourses);
 } 
-async function cearch(val){
-    let courses = await getCourses();
-    let dd = courses;
-    console.log(dd);
-    console.log(val);
-    dd.filter( res => {
-        if(res.id % 2 === 0){
-            console.log(res.id);
-        }
-    })
-}
-
 
 async function getCourses() {
   let url = 'https://shwky56.github.io/facapi/courses.geojson';
